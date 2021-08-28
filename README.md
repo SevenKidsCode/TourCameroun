@@ -20,6 +20,6 @@
 
 :point_down: :point_down: :point_down:
 
-[Click Here!](https://coderprodigestive.netlify.app/)
+[Click Here!](https://tourcameroun.netlify.app/)
 
 Made with :heart: by @LesCodersPro during the sevenKids code program August 2021
