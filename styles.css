@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Satisfy&display=swap');*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;   
+}
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.495)), url('./images/mount-cameroon-1489500_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    /* background: rgb(165, 118, 118); */
+}
+header{
+    height: 90vh;
+    display: flex;
+    justify-content: left;
+    /* background: rgb(165, 118, 118); */
+    align-items: center;
+}
+.main{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin-top:0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.height{
+    height: 100vh;
+}
+.header-text{
+    width: 50%;
+}
+
+.top{
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-between;
+}
+.top p{
+    color: white;
+}
+.top img{
+    width: 2%;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding:5px;
+}
+.header h2{
+    font-size: 80px;
+    color: white;
+    margin: 20px 0;
+}
+.header p{
+    color: white;
+    font-size: 18px;
+}
+
+.top .home{
+    background-color: white;
+    border-radius: 10px;
+    width: 2%;
+}
+.welcome-region{
+    margin: 80px 0;
+}
+.welcome-region p, .welcome-region h2{
+    text-align: center ;
+    /* margin-top: 50px; */
+}
+.welcome-region h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.welcome-region p{
+    margin-top: 10px;
+}
+
+
+
+/* Les Region */
+
+.select-region{
+    display: flex;
+    width: 80%;
+        align-items: center;
+    justify-content: center;
+
+}
+.select-region .left{
+    width: 50%;
+    font-size: 20px;
+}
+.select-region svg{
+    transform: scale(0.4);
+
+
+}
+.select-region .right{
+    width: 80%;
+}
+#Maroua #CM-EN{
+    fill: teal;
+}
+
+#Garoua #CM-NO{
+    fill: teal;
+}
+
+#Adamaoua #CM-AD{
+    fill: teal;
+}
+.right p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.right span{
+    font-size: 15px;
+    font-style: italic;
+}
+.description p{
+    margin-top: 5px;
+    font-size: 16px;
+}
+.description h3{
+    margin-top: 30px;
+    font-size: 24px;
+}
+#Yaounde #CM-CE{
+fill: teal;
+}
+#Est #CM-EA{
+    fill: teal;
+}
+#Ouest #CM-OU{
+    fill: teal;
+}
+#Nord-Ouest #CM-NW{
+    fill: #008080;
+}
+#Sud-Ouest #CM-SW{
+fill: teal;
+}
+#Littoral #CM-LI{
+    fill: teal;
+}
+#Sud #CM-SO{
+    fill: teal;
+}
+.icons{
+    display: flex;
+    width:10%;
+    margin-top: 20px;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.icons i{
+    font-size: 40px;
+    color: teal;
+    font-weight: 100;
+}
+
+.success{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.success div{
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+
+}
+.success img{
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hyme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+.hyme div{
+    width: 80%;
+    margin: 0 auto;
+}
+.hyme h2{
+    margin-bottom: 20px;
+}
+.hyme video{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.park{
+    display: flex;
+    width: 80%;
+   margin: 0 auto;
+}
+.park div{
+    margin: 10px;
+    border-radius: 10px;
+    background: rgb(243, 243, 243);
+    box-shadow: teal;
+    height: 600px;
+}
+
+.park img{
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.park h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.park p{
+    font-size: 15px;
+    padding: 20px;
+}
+.welcome-region .headline{
+    margin-bottom: 20px;
+}
